@@ -10,6 +10,7 @@ def hand_value(cards):
     while total > 21 and aces > 0:
         total -= 10
         aces -= 1
+        
     return total
 
 
