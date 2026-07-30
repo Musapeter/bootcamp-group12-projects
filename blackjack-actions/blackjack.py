@@ -5,6 +5,7 @@ RANK_VALUES = {
 
 
 def hand_value(cards):
+    num = 1
     total = sum(RANK_VALUES[card] for card in cards)
     aces = cards.count("A")
     while total > 21 and aces > 0:
