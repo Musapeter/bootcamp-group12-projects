@@ -15,7 +15,6 @@ CATEGORIES = [
 ]
 
 
-
 def parse_roll(text):
     dice = [int(char) for char in text.strip() if char.isdigit()]
 
